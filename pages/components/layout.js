@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { Layout, Menu, Breadcrumb } from "antd";
+import { Layout, Menu, Breadcrumb /* , Switch */ } from "antd";
 import {
   DesktopOutlined,
   PieChartOutlined,
@@ -11,6 +11,7 @@ import {
   GithubOutlined,
 } from "@ant-design/icons";
 import styles from "../../styles/layouts.module.css";
+/* import { Moon, Sun } from "../icons/icons"; */
 
 const { Header, Sider, Content } = Layout;
 const { SubMenu } = Menu;
@@ -49,8 +50,9 @@ export default function SiteLayout(props) {
         onCollapse={() => {
           setCollapsed(!collapsed);
         }}
+        className={styles.layout_sider}
       >
-        <div className="logo" />
+        <div className={styles.logo} />
         <Menu theme="dark" defaultSelectedKeys={[itemSelected()]} mode="inline">
           <Menu.Item key="1" icon={<PieChartOutlined />}>
             <Link href="/">
@@ -96,6 +98,18 @@ export default function SiteLayout(props) {
       <Layout className="site-layout">
         <Header className="site-layout-background" style={{ padding: 0 }}>
           <div className={styles.personal_links} style={{ float: "right" }}>
+            {/* <span style={{ marginRight: "60px" }}>
+              <Sun style={{ margin: "-10px 10px" }} />
+              <Switch
+                defaultChecked
+                onClick={() => {
+                  props.children.props.setDarkTheme(
+                    !props.children.props.darkTheme
+                  );
+                }}
+              />
+              <Moon style={{ margin: "-6px 5px" }} />
+            </span> */}
             <span>
               <a
                 href="https://www.linkedin.com/in/monark-basak-402172144/"
@@ -112,7 +126,7 @@ export default function SiteLayout(props) {
           </div>
         </Header>
         <Content style={{ margin: "0 16px" }}>
-          <Breadcrumb style={{ margin: "16px 0" }}>
+          <Breadcrumb style={{ margin: "16px 30px" }}>
             {breadCrumbs.map((item, index) => {
               return <Breadcrumb.Item key={index + 1}>{item}</Breadcrumb.Item>;
             })}
@@ -124,7 +138,8 @@ export default function SiteLayout(props) {
               padding: 24,
               minHeight: "95%",
               minWidth: "90%",
-              // backgroundColor: "#1F1F1F",
+              borderRadius: "1%",
+              backgroundColor: "#292929",
             }}
           >
             {props.children}

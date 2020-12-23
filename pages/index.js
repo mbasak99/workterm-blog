@@ -6,9 +6,7 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-      <div>
-        <h1>testing dab</h1>
-      </div>
+      <h1>testing dab</h1>
     </>
   );
 }

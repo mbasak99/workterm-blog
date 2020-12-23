@@ -9,3 +9,14 @@
 .personal_links span {
   margin-right: 20px;
 }
+
+.layout_sider {
+  user-select: none;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  margin-left: 25px;
+  content: url("/antd\ logo.svg");
+}
