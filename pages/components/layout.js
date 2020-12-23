@@ -33,6 +33,8 @@ export default function SiteLayout(props) {
         return "3";
       case "/about/me":
         return "6";
+      case "/about/site":
+        return "7";
       default:
         return "1";
     }
