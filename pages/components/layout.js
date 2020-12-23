@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { Layout, Menu } from "antd";
+import { Layout, Menu, Breadcrumb } from "antd";
 import {
   DesktopOutlined,
   PieChartOutlined,
@@ -17,25 +17,26 @@ const { SubMenu } = Menu;
 
 export default function SiteLayout(props) {
   const [collapsed, setCollapsed] = useState(true);
-  console.log(useRouter());
-
-  var route = useRouter();
 
   var breadCrumbs = [];
+  var route = useRouter();
 
   var itemSelected = () => {
     switch (route.pathname) {
       case "/resume":
-        breadCrumbs.push("Resume");
+        breadCrumbs = ["Resume"];
         return "2";
       case "/workterms/kenna":
-        breadCrumbs = "";
+        breadCrumbs = ["Workterms", "Kenna"];
         return "3";
       case "/about/me":
+        breadCrumbs = ["About", "Me"];
         return "6";
       case "/about/site":
+        breadCrumbs = ["About", "Site"];
         return "7";
       default:
+        breadCrumbs = ["Home"];
         return "1";
     }
   };
@@ -111,6 +112,11 @@ export default function SiteLayout(props) {
           </div>
         </Header>
         <Content style={{ margin: "0 16px" }}>
+          <Breadcrumb style={{ margin: "16px 0" }}>
+            {breadCrumbs.map((item, index) => {
+              return <Breadcrumb.Item key={index + 1}>{item}</Breadcrumb.Item>;
+            })}
+          </Breadcrumb>
           <div
             className="site-layout-background"
             style={{

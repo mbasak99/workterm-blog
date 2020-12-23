@@ -6,6 +6,7 @@ export default function Resume() {
       <Head>
         <title>Resume</title>
       </Head>
+      <h1>Resume</h1>
     </>
   );
 }
