@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { Layout, Menu, Breadcrumb /* , Switch */ } from "antd";
+import { Layout, Menu, Breadcrumb } from "antd";
 import {
   DesktopOutlined,
   PieChartOutlined,
@@ -11,7 +11,6 @@ import {
   GithubOutlined,
 } from "@ant-design/icons";
 import styles from "../../styles/layouts.module.css";
-/* import Moon, { Sun } from "../icons/icons"; */
 
 const { Header, Sider, Content } = Layout;
 const { SubMenu } = Menu;
@@ -51,12 +50,6 @@ export default function SiteLayout(props) {
           setCollapsed(!collapsed);
         }}
         className={styles.layout_sider}
-        /* style={{
-          userSelect: "none",
-          WebkitUserSelect: "none",
-          msUserSelect: "none",
-          MozUserSelect: "none",
-        }} */
       >
         <div className={styles.logo} />
         <Menu theme="dark" defaultSelectedKeys={[itemSelected()]} mode="inline">
@@ -104,18 +97,6 @@ export default function SiteLayout(props) {
       <Layout className="site-layout">
         <Header className="site-layout-background" style={{ padding: 0 }}>
           <div className={styles.personal_links} style={{ float: "right" }}>
-            {/* <span style={{ marginRight: "60px" }}>
-              <Sun style={{ margin: "-10px 10px" }} />
-              <Switch
-                defaultChecked
-                onClick={() => {
-                  props.children.props.setDarkTheme(
-                    !props.children.props.darkTheme
-                  );
-                }}
-              />
-              <Moon style={{ margin: "-6px 5px" }} />
-            </span> */}
             <span>
               <a
                 href="https://www.linkedin.com/in/monark-basak-402172144/"
