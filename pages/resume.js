@@ -7,6 +7,7 @@ export default function Resume() {
         <title>Resume</title>
       </Head>
       <h1>Resume</h1>
+      {/* Place resume here */}
     </>
   );
 }
