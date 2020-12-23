@@ -10,7 +10,8 @@
   margin-right: 20px;
 }
 
-.layout_sider {
+.layout_sider,
+.ant-layout-sider {
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
