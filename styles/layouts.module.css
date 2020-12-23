@@ -1,0 +1,11 @@
+.icon_links {
+  transform: scale(2.5);
+}
+
+.personal_links a {
+  color: white;
+}
+
+.personal_links span {
+  margin-right: 20px;
+}
