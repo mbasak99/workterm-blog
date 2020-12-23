@@ -136,7 +136,7 @@ export default function SiteLayout(props) {
             style={{
               margin: 24,
               padding: 24,
-              minHeight: "95%",
+              minHeight: "93%",
               minWidth: "90%",
               borderRadius: "1%",
               backgroundColor: "#292929",
