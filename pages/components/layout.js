@@ -51,6 +51,12 @@ export default function SiteLayout(props) {
           setCollapsed(!collapsed);
         }}
         className={styles.layout_sider}
+        style={{
+          userSelect: "none",
+          WebkitUserSelect: "none",
+          msUserSelect: "none",
+          MozUserSelect: "none",
+        }}
       >
         <div className={styles.logo} />
         <Menu theme="dark" defaultSelectedKeys={[itemSelected()]} mode="inline">
