@@ -10,13 +10,13 @@
   margin-right: 20px;
 }
 
-/* .layout_sider,
-.ant-layout-sider {
+.layout_sider/* ,
+.ant-layout-sider */ {
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-} */
+}
 
 .logo {
   height: 32px;

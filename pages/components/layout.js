@@ -11,7 +11,7 @@ import {
   GithubOutlined,
 } from "@ant-design/icons";
 import styles from "../../styles/layouts.module.css";
-/* import { Moon, Sun } from "../icons/icons"; */
+/* import Moon, { Sun } from "../icons/icons"; */
 
 const { Header, Sider, Content } = Layout;
 const { SubMenu } = Menu;
@@ -51,12 +51,12 @@ export default function SiteLayout(props) {
           setCollapsed(!collapsed);
         }}
         className={styles.layout_sider}
-        style={{
+        /* style={{
           userSelect: "none",
           WebkitUserSelect: "none",
           msUserSelect: "none",
           MozUserSelect: "none",
-        }}
+        }} */
       >
         <div className={styles.logo} />
         <Menu theme="dark" defaultSelectedKeys={[itemSelected()]} mode="inline">
