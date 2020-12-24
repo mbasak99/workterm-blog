@@ -18,8 +18,8 @@
 }
 
 .logo {
-  height: 32px;
+  height: 29px;
   margin: 16px;
   margin-left: 25px;
-  content: url("/antd\ logo.svg");
+  content: url("/antd_logo.svg");
 }

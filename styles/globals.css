@@ -16,6 +16,16 @@ body {
   /* Use this colour palette: https://colorhunt.co/palette/238 */
 }
 
+h1 {
+  font-size: 32px;
+  text-align: center;
+  border-bottom: 2px white solid;
+}
+
+div.content-container {
+  margin: 10px;
+}
+
 .error * {
   color: black;
 }
