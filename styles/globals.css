@@ -28,4 +28,5 @@ div.content-container {
 
 .error * {
   color: black;
+  border: 0;
 }
