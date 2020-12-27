@@ -11,7 +11,7 @@ export default function AboutSite() {
         <h2>Technologies used</h2>
         <ul>
           <li>React</li>
-          <li>NextJS</li>
+          <li>Next.js</li>
           <li>Ant Design</li>
           <li>Vercel</li>
           <li></li>
