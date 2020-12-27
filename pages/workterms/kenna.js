@@ -30,7 +30,7 @@ export default function KennaTerm() {
         <h2>Some Projects I Worked On</h2>
         <ul>
           <li>WALLTITE (Handlebars, jQuery, CSS, Node.js, T-SQL)</li>
-          <li>BASF US/CAN (jQuery, CSS) In-Season Logistics</li>
+          <li>BASF US/CAN In-Season Logistics (jQuery, CSS)</li>
           <li>Retail Connect Rep Tool (jQuery, CSS)</li>
           <li>BASF Event Management (React, CSS)</li>
           <li>Market Connect (React, Redux, Node.js, T-SQL)</li>
