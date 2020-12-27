@@ -1,11 +1,5 @@
 import Head from "next/head";
-import dynamic from "next/dynamic";
-import { Button } from "antd";
 import styles from "../styles/resume.module.css";
-
-const ClientPDFViewer = dynamic(() => import("./components/pdf_viewer"), {
-  ssr: false,
-});
 
 export default function Resume() {
   return (
@@ -15,15 +9,14 @@ export default function Resume() {
       </Head>
       <h1>Resume</h1>
       <div className={styles.resume_container}>
-        <ClientPDFViewer url="/Monark_Basak_Resume.pdf" height={1080} />
-        <Button
-          type="primary"
-          href="/Monark_Basak_Resume.pdf"
-          target="_blank"
-          shape="round"
+        <object
+          data="/Monark_Basak_Resume.pdf"
+          type="application/pdf"
+          height={1150}
+          width={900}
         >
-          View/Download as PDF
-        </Button>
+          <param name="view" value="Fit" />
+        </object>
       </div>
     </>
   );
