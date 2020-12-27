@@ -1,0 +1,13 @@
+.resume_container {
+  display: grid;
+  gap: 15px;
+}
+
+.resume_container > div {
+  margin: auto;
+}
+
+.resume_container > a {
+  max-width: 280px;
+  justify-self: center;
+}

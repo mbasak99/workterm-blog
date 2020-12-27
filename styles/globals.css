@@ -30,3 +30,14 @@ div.content-container {
   color: black;
   border: 0;
 }
+
+.anticon-loading svg {
+  height: 100px;
+  width: 100px;
+}
+
+.anticon-loading {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
