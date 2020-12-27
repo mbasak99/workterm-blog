@@ -5,6 +5,8 @@
 
 .resume_container > object {
   margin: auto;
+  display: block;
+  width: -webkit-fill-available;
 }
 
 .resume_container > a {
