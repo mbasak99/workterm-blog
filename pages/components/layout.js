@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 import Link from "next/link";
 import { Layout, Menu, Breadcrumb } from "antd";
 import {
@@ -96,6 +97,10 @@ export default function SiteLayout(props) {
       </Sider>
       <Layout className="site-layout">
         <Header className="site-layout-background" style={{ padding: 0 }}>
+          <span className={styles.name_svg_header}>
+            <Image src="/monark_v2_animated.svg" width={100} height={100} />
+            {/* Site used to animate my SVG is https://maxwellito.github.io/vivus-instant/ */}
+          </span>
           <div className={styles.personal_links} style={{ float: "right" }}>
             {/* <span>
               <a

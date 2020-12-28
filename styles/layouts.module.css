@@ -2,6 +2,17 @@
   transform: scale(2.5);
 }
 
+@media only screen and (max-width: 325px) {
+  .name_svg_header {
+    display: none;
+  }
+}
+
+.name_svg_header {
+  float: left;
+  margin: -15px 10px;
+}
+
 .resume_link {
   font-size: 1rem;
 }
