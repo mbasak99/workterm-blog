@@ -41,3 +41,9 @@ div.content-container {
   margin: auto;
   margin-top: 100px;
 }
+
+canvas.react-pdf__Page__canvas {
+  width: 100% !important;
+  max-width: 1080px;
+  height: auto !important;
+}

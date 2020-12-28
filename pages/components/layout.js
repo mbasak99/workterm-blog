@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-// import Image from "next/image";
 import { Layout, Menu, Breadcrumb } from "antd";
 import {
   DesktopOutlined,
@@ -98,6 +97,16 @@ export default function SiteLayout(props) {
       <Layout className="site-layout">
         <Header className="site-layout-background" style={{ padding: 0 }}>
           <div className={styles.personal_links} style={{ float: "right" }}>
+            {/* <span>
+              <a
+                className={styles.resume_link}
+                href="/Monark_Basak_Resume.pdf"
+                title="Resume"
+                target="_blank"
+              >
+                Resume <FileOutlined />
+              </a>
+            </span> */}
             <span>
               <a
                 href="https://www.linkedin.com/in/monark-basak-402172144/"
@@ -121,14 +130,25 @@ export default function SiteLayout(props) {
           </Breadcrumb>
           <div
             className="site-layout-background"
-            style={{
-              margin: 24,
-              padding: 24,
-              minHeight: "93%",
-              minWidth: "90%",
-              borderRadius: "1%",
-              backgroundColor: "#292929",
-            }}
+            style={
+              /* route.pathname !== "/resume"
+                ? {
+                    margin: 24,
+                    padding: 24,
+                    minHeight: "93%",
+                    minWidth: "90%",
+                    borderRadius: 10,
+                    backgroundColor: "#292929",
+                  }
+                :  */ {
+                margin: 24,
+                padding: 24,
+                minHeight: "fit-content",
+                minWidth: "90%",
+                borderRadius: 10,
+                backgroundColor: "#292929",
+              }
+            }
           >
             {props.children}
           </div>

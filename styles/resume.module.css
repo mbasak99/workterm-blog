@@ -3,10 +3,9 @@
   gap: 15px;
 }
 
-.resume_container > object {
+.resume_container > div {
   margin: auto;
-  display: block;
-  width: -webkit-fill-available;
+  overflow: hidden;
 }
 
 .resume_container > a {

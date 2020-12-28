@@ -2,6 +2,10 @@
   transform: scale(2.5);
 }
 
+.resume_link {
+  font-size: 1rem;
+}
+
 .personal_links a {
   color: white;
 }
