@@ -34,36 +34,42 @@ export default function AboutMe() {
         <span className={styles.img_collection}>
           <Image
             src="/games/gow_cover.jpg"
+            alt="God of War cover"
             width="400"
             height="225"
             layout="intrinsic"
           />
           <Image
             src="/games/got_cover.jpg"
+            alt="Ghost of Tsushima cover"
             width="400"
             height="225"
             layout="intrinsic"
           />
           <Image
             src="/games/bloodborne_cover.jpg"
+            alt="Bloodborne cover"
             width="400"
             height="225"
             layout="intrinsic"
           />
           <Image
             src="/games/tlou_cover.jpg"
+            alt="The Last of Us cover"
             width="400"
             height="225"
             layout="intrinsic"
           />
           <Image
             src="/games/rdr2_cover.jpg"
+            alt="Red Dead Redemption 2 cover"
             width="400"
             height="225"
             layout="intrinsic"
           />
           <Image
             src="/games/witcher3_cover.jpg"
+            alt="The Witcher 3: Wild Hunt cover"
             width="400"
             height="225"
             layout="intrinsic"
@@ -90,6 +96,7 @@ export default function AboutMe() {
           >
             <Image
               src="/albums/trilogy_cover.jpg"
+              alt="Trilogy by The Weeknd album cover"
               width="300"
               height="300"
               layout="intrinsic"
@@ -102,6 +109,7 @@ export default function AboutMe() {
           >
             <Image
               src="/albums/2014_forest_hills_drive_cover.jpg"
+              alt="2014 Forest Hills Drive by J. Cole album cover"
               width="300"
               height="300"
               layout="intrinsic"
@@ -110,6 +118,7 @@ export default function AboutMe() {
           <Popover content={popoverContent()}>
             <Image
               src="/albums/starboy_cover.jpg"
+              alt="Starboy by The Weeknd album cover"
               width="300"
               height="300"
               layout="intrinsic"
@@ -118,6 +127,7 @@ export default function AboutMe() {
           <Popover content={popoverContent()}>
             <Image
               src="/albums/kod_cover.jpg"
+              alt="K.O.D. by J. Cole album cover"
               width="300"
               height="300"
               layout="intrinsic"
@@ -130,6 +140,7 @@ export default function AboutMe() {
           >
             <Image
               src="/albums/after_hours_cover.jpg"
+              alt="After Hours by The Weeknd album cover"
               width="300"
               height="300"
               layout="intrinsic"
@@ -138,6 +149,7 @@ export default function AboutMe() {
           <Popover content={popoverContent()}>
             <Image
               src="/albums/under_pressure_cover.jpg"
+              alt="Under Pressure by Logic album cover"
               width="300"
               height="300"
               layout="intrinsic"
