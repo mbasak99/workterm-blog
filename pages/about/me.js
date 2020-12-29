@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import { Popover } from "antd";
@@ -15,13 +14,7 @@ const popoverContent = (link) => {
 };
 
 export default function AboutMe() {
-  const [animate, setAnimate] = useState(false);
-
-  useEffect(() => {
-    setAnimate(true);
-  }, []);
-
-  return animate ? (
+  return (
     <motion.div animate="animate" initial="initial">
       <Head>
         <title>About Me</title>
@@ -191,7 +184,5 @@ export default function AboutMe() {
         </motion.span>
       </div>
     </motion.div>
-  ) : (
-    <></>
   );
 }
