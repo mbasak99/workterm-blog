@@ -56,60 +56,60 @@ export default function AboutMe() {
           boss fights.
         </p>
         <motion.span variants={stagger} className={styles.img_collection}>
-          <motion.img
-            variants={fadeInUp}
-            src="/games/gow_cover.jpg"
-            alt="God of War cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          {/* </motion.div> */}
-          <motion.img
-            variants={fadeInUp}
-            src="/games/got_cover.jpg"
-            alt="Ghost of Tsushima cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          {/* </motion.div> */}
-          <motion.img
-            variants={fadeInUp}
-            src="/games/bloodborne_cover.jpg"
-            alt="Bloodborne cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          {/* </motion.img> */}
-          <motion.img
-            variants={fadeInUp}
-            src="/games/tlou_cover.jpg"
-            alt="The Last of Us cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          {/* </motion.img> */}
-          <motion.img
-            variants={fadeInUp}
-            src="/games/rdr2_cover.jpg"
-            alt="Red Dead Redemption 2 cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          {/* </motion.img> */}
-          <motion.img
-            variants={fadeInUp}
-            src="/games/witcher3_cover.jpg"
-            alt="The Witcher 3: Wild Hunt cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          {/* </motion.img> */}
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/gow_cover.jpg"
+              alt="God of War cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/got_cover.jpg"
+              alt="Ghost of Tsushima cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/bloodborne_cover.jpg"
+              alt="Bloodborne cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/tlou_cover.jpg"
+              alt="The Last of Us cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/rdr2_cover.jpg"
+              alt="Red Dead Redemption 2 cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/witcher3_cover.jpg"
+              alt="The Witcher 3: Wild Hunt cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
         </motion.span>
       </div>
       <div className="content-container">
