@@ -42,7 +42,6 @@ export default function AboutMe() {
               height="225"
               layout="intrinsic"
               priority={true}
-              unoptimized={true}
             />
           </motion.div>
           <motion.div variants={fadeInUp}>
@@ -53,7 +52,6 @@ export default function AboutMe() {
               height="225"
               layout="intrinsic"
               priority={true}
-              unoptimized={true}
             />
           </motion.div>
           <motion.div variants={fadeInUp}>
@@ -64,7 +62,6 @@ export default function AboutMe() {
               height="225"
               layout="intrinsic"
               priority={true}
-              unoptimized={true}
             />
           </motion.div>
           <motion.div variants={fadeInUp}>
@@ -75,7 +72,6 @@ export default function AboutMe() {
               height="225"
               layout="intrinsic"
               priority={true}
-              unoptimized={true}
             />
           </motion.div>
           <motion.div variants={fadeInUp}>
@@ -86,7 +82,6 @@ export default function AboutMe() {
               height="225"
               layout="intrinsic"
               priority={true}
-              unoptimized={true}
             />
           </motion.div>
           <motion.div variants={fadeInUp}>
@@ -97,7 +92,6 @@ export default function AboutMe() {
               height="225"
               layout="intrinsic"
               priority={true}
-              unoptimized={true}
             />
           </motion.div>
         </motion.span>
@@ -128,7 +122,6 @@ export default function AboutMe() {
                 height="300"
                 layout="intrinsic"
                 priority={true}
-                unoptimized={true}
               />
             </motion.div>
           </Popover>
@@ -145,7 +138,6 @@ export default function AboutMe() {
                 height="300"
                 layout="intrinsic"
                 priority={true}
-                unoptimized={true}
               />
             </motion.div>
           </Popover>
@@ -158,7 +150,6 @@ export default function AboutMe() {
                 height="300"
                 layout="intrinsic"
                 priority={true}
-                unoptimized={true}
               />
             </motion.div>
           </Popover>
@@ -171,7 +162,6 @@ export default function AboutMe() {
                 height="300"
                 layout="intrinsic"
                 priority={true}
-                unoptimized={true}
               />
             </motion.div>
           </Popover>
@@ -188,7 +178,6 @@ export default function AboutMe() {
                 height="300"
                 layout="intrinsic"
                 priority={true}
-                unoptimized={true}
               />
             </motion.div>
           </Popover>
@@ -201,7 +190,6 @@ export default function AboutMe() {
                 height="300"
                 layout="intrinsic"
                 priority={true}
-                unoptimized={true}
               />
             </motion.div>
           </Popover>
