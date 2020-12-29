@@ -99,7 +99,12 @@ export default function SiteLayout(props) {
       <Layout className="site-layout">
         <Header className="site-layout-background" style={{ padding: 0 }}>
           <span className={styles.name_svg_header}>
-            <Image src="/monark_v2_animated.svg" width={100} height={100} />
+            <Image
+              className="header_svg"
+              src="/monarksblog_animated.svg"
+              width={100}
+              height={100}
+            />
             {/* Site used to animate my SVG is https://maxwellito.github.io/vivus-instant/ */}
           </span>
           <div className={styles.personal_links} style={{ float: "right" }}>
