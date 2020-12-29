@@ -136,8 +136,8 @@ export default function SiteLayout(props) {
           </Breadcrumb>
           <motion.div
             exit={{ opacity: 0 }}
-            initial="initial"
-            animate="animate"
+            initial={{ y: -60, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             className="site-layout-background"
             style={
               /* route.pathname !== "/resume"

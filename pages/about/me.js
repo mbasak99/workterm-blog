@@ -37,7 +37,7 @@ const stagger = {
 
 export default function AboutMe() {
   return (
-    <>
+    <motion.div animate="animate" initial="initial">
       <Head>
         <title>About Me</title>
       </Head>
@@ -205,6 +205,6 @@ export default function AboutMe() {
           </Popover>
         </motion.span>
       </div>
-    </>
+    </motion.div>
   );
 }
