@@ -63,6 +63,7 @@ export default function AboutMe() {
               width="400"
               height="225"
               layout="intrinsic"
+              priority={true}
             />
           </motion.div>
           <motion.div variants={fadeInUp}>
@@ -72,6 +73,7 @@ export default function AboutMe() {
               width="400"
               height="225"
               layout="intrinsic"
+              priority={true}
             />
           </motion.div>
           <motion.div variants={fadeInUp}>
@@ -81,6 +83,7 @@ export default function AboutMe() {
               width="400"
               height="225"
               layout="intrinsic"
+              priority={true}
             />
           </motion.div>
           <motion.div variants={fadeInUp}>
@@ -90,6 +93,7 @@ export default function AboutMe() {
               width="400"
               height="225"
               layout="intrinsic"
+              priority={true}
             />
           </motion.div>
           <motion.div variants={fadeInUp}>
@@ -99,6 +103,7 @@ export default function AboutMe() {
               width="400"
               height="225"
               layout="intrinsic"
+              priority={true}
             />
           </motion.div>
           <motion.div variants={fadeInUp}>
@@ -108,6 +113,7 @@ export default function AboutMe() {
               width="400"
               height="225"
               layout="intrinsic"
+              priority={true}
             />
           </motion.div>
         </motion.span>
