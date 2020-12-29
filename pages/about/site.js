@@ -14,7 +14,7 @@ export default function AboutSite() {
           <li>Next.js</li>
           <li>Ant Design</li>
           <li>Vercel</li>
-          <li></li>
+          <li>Framer Motion</li>
         </ul>
       </div>
       <div>

@@ -11,6 +11,7 @@ import {
   LinkedinOutlined,
   GithubOutlined,
 } from "@ant-design/icons";
+import { motion } from "framer-motion";
 import styles from "../../styles/layouts.module.css";
 
 const { Header, Sider, Content } = Layout;
@@ -133,7 +134,10 @@ export default function SiteLayout(props) {
               return <Breadcrumb.Item key={index + 1}>{item}</Breadcrumb.Item>;
             })}
           </Breadcrumb>
-          <div
+          <motion.div
+            exit={{ opacity: 0 }}
+            initial="initial"
+            animate="animate"
             className="site-layout-background"
             style={
               /* route.pathname !== "/resume"
@@ -156,7 +160,7 @@ export default function SiteLayout(props) {
             }
           >
             {props.children}
-          </div>
+          </motion.div>
         </Content>
       </Layout>
     </Layout>

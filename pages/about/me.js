@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Popover } from "antd";
 import styles from "../../styles/me.module.css";
+import { motion } from "framer-motion";
 
 const popoverContent = (link) => {
   return (
@@ -9,6 +10,29 @@ const popoverContent = (link) => {
       <a href={link}>Listen on Spotify</a>
     </div>
   );
+};
+
+const fadeInUp = {
+  initial: {
+    y: 60,
+    opacity: 0,
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 1,
+      ease: [0.6, -0.05, 0.01, 0.99],
+    },
+  },
+};
+
+const stagger = {
+  animate: {
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
 };
 
 export default function AboutMe() {
@@ -31,50 +55,62 @@ export default function AboutMe() {
           brings along with the beautifully written scores for the game's many
           boss fights.
         </p>
-        <span className={styles.img_collection}>
-          <Image
-            src="/games/gow_cover.jpg"
-            alt="God of War cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          <Image
-            src="/games/got_cover.jpg"
-            alt="Ghost of Tsushima cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          <Image
-            src="/games/bloodborne_cover.jpg"
-            alt="Bloodborne cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          <Image
-            src="/games/tlou_cover.jpg"
-            alt="The Last of Us cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          <Image
-            src="/games/rdr2_cover.jpg"
-            alt="Red Dead Redemption 2 cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-          <Image
-            src="/games/witcher3_cover.jpg"
-            alt="The Witcher 3: Wild Hunt cover"
-            width="400"
-            height="225"
-            layout="intrinsic"
-          />
-        </span>
+        <motion.span variants={stagger} className={styles.img_collection}>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/gow_cover.jpg"
+              alt="God of War cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/got_cover.jpg"
+              alt="Ghost of Tsushima cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/bloodborne_cover.jpg"
+              alt="Bloodborne cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/tlou_cover.jpg"
+              alt="The Last of Us cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/rdr2_cover.jpg"
+              alt="Red Dead Redemption 2 cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Image
+              src="/games/witcher3_cover.jpg"
+              alt="The Witcher 3: Wild Hunt cover"
+              width="400"
+              height="225"
+              layout="intrinsic"
+            />
+          </motion.div>
+        </motion.span>
       </div>
       <div className="content-container">
         <h2>Music</h2>
@@ -88,74 +124,86 @@ export default function AboutMe() {
           Pressure by Logic, 2014 Forest Hills Drive by J. Cole, K.O.D. by J.
           Cole, and Under Pressure by Logic.
         </p>
-        <span className={styles.img_collection}>
+        <motion.span variants={stagger} className={styles.img_collection}>
           <Popover
             content={popoverContent(
               "https://open.spotify.com/album/5EbpxRwbbpCJUepbqVTZ1U?si=ihk6UiQDSEuAqCvS-JD8JA",
             )}
           >
-            <Image
-              src="/albums/trilogy_cover.jpg"
-              alt="Trilogy by The Weeknd album cover"
-              width="300"
-              height="300"
-              layout="intrinsic"
-            />
+            <motion.div variants={fadeInUp}>
+              <Image
+                src="/albums/trilogy_cover.jpg"
+                alt="Trilogy by The Weeknd album cover"
+                width="300"
+                height="300"
+                layout="intrinsic"
+              />
+            </motion.div>
           </Popover>
           <Popover
             content={popoverContent(
               "https://open.spotify.com/album/7viNUmZZ8ztn2UB4XB3jIL?si=rnzTzHg-QECRtY1Ipth2NQ",
             )}
           >
-            <Image
-              src="/albums/2014_forest_hills_drive_cover.jpg"
-              alt="2014 Forest Hills Drive by J. Cole album cover"
-              width="300"
-              height="300"
-              layout="intrinsic"
-            />
+            <motion.div variants={fadeInUp}>
+              <Image
+                src="/albums/2014_forest_hills_drive_cover.jpg"
+                alt="2014 Forest Hills Drive by J. Cole album cover"
+                width="300"
+                height="300"
+                layout="intrinsic"
+              />
+            </motion.div>
           </Popover>
           <Popover content={popoverContent()}>
-            <Image
-              src="/albums/starboy_cover.jpg"
-              alt="Starboy by The Weeknd album cover"
-              width="300"
-              height="300"
-              layout="intrinsic"
-            />
+            <motion.div variants={fadeInUp}>
+              <Image
+                src="/albums/starboy_cover.jpg"
+                alt="Starboy by The Weeknd album cover"
+                width="300"
+                height="300"
+                layout="intrinsic"
+              />
+            </motion.div>
           </Popover>
           <Popover content={popoverContent()}>
-            <Image
-              src="/albums/kod_cover.jpg"
-              alt="K.O.D. by J. Cole album cover"
-              width="300"
-              height="300"
-              layout="intrinsic"
-            />
+            <motion.div variants={fadeInUp}>
+              <Image
+                src="/albums/kod_cover.jpg"
+                alt="K.O.D. by J. Cole album cover"
+                width="300"
+                height="300"
+                layout="intrinsic"
+              />
+            </motion.div>
           </Popover>
           <Popover
             content={popoverContent(
               "https://open.spotify.com/album/6YlDIxqEjvY63ffH6AwCjd?si=wnOpnC6wRrmyyLrGcptDxw",
             )}
           >
-            <Image
-              src="/albums/after_hours_cover.jpg"
-              alt="After Hours by The Weeknd album cover"
-              width="300"
-              height="300"
-              layout="intrinsic"
-            />
+            <motion.div variants={fadeInUp}>
+              <Image
+                src="/albums/after_hours_cover.jpg"
+                alt="After Hours by The Weeknd album cover"
+                width="300"
+                height="300"
+                layout="intrinsic"
+              />
+            </motion.div>
           </Popover>
           <Popover content={popoverContent()}>
-            <Image
-              src="/albums/under_pressure_cover.jpg"
-              alt="Under Pressure by Logic album cover"
-              width="300"
-              height="300"
-              layout="intrinsic"
-            />
+            <motion.div variants={fadeInUp}>
+              <Image
+                src="/albums/under_pressure_cover.jpg"
+                alt="Under Pressure by Logic album cover"
+                width="300"
+                height="300"
+                layout="intrinsic"
+              />
+            </motion.div>
           </Popover>
-        </span>
+        </motion.span>
       </div>
     </>
   );
