@@ -30,7 +30,7 @@ const fadeInUp = {
 const stagger = {
   animate: {
     transition: {
-      staggerChildren: 0.5,
+      staggerChildren: 0.05,
     },
   },
 };
