@@ -9,9 +9,9 @@ export default function KennaTerm() {
         <title>Kenna</title>
       </Head>
       <h1>Kenna (May 2020 - December 2020)</h1>
-      <div>
-        <h2>First Experience</h2>
-        <p>
+      <motion.div variants={stagger}>
+        <motion.h2 variants={fadeInUp}>First Experience</motion.h2>
+        <motion.p variants={fadeInUp}>
           I was a bit nervous when I first started out since it was my first
           ever co-op work term, and I had never coded in a professional
           environment before. I was also worried whether I'd be able to pick
@@ -24,17 +24,17 @@ export default function KennaTerm() {
           answered in their Confluence documentation, and if it's not, then
           you're encouraged to add to the documentation to help those in the
           future.
-        </p>
-      </div>
-      <div>
-        <h2>About Kenna</h2>
-        <p>
+        </motion.p>
+      </motion.div>
+      <motion.div variants={stagger}>
+        <motion.h2 variants={fadeInUp}>About Kenna</motion.h2>
+        <motion.p variants={fadeInUp}>
           Kenna provides Customer Relationship Management *not done yet*. They
           have provided their services to create better customer experiences for
           many large brands such as Colgate, BASF, Nissan, Coca Cola,
           Mercedes-Benz and many more!
-        </p>
-      </div>
+        </motion.p>
+      </motion.div>
       <motion.div variants={stagger}>
         <motion.h2 variants={fadeInUp}>My Goals</motion.h2>
         <motion.ul variants={stagger}>
@@ -117,9 +117,9 @@ export default function KennaTerm() {
           <motion.li variants={fadeInUp}></motion.li>
         </motion.ul>
       </motion.div>
-      <div>
-        <h2>Acknowledgements</h2>
-        <p>
+      <motion.div variants={stagger}>
+        <motion.h2 variants={fadeInUp}>Acknowledgements</motion.h2>
+        <motion.p variants={fadeInUp}>
           A huge shoutout to Kenna, first of all, when I received the co-op
           offer (which I promptly accepted) COVID-19 troubles were right around
           the corner but I was assured that all incoming and existing co-op
@@ -140,8 +140,8 @@ export default function KennaTerm() {
           much about the tools and technolgies I'd have to work with, for being
           patient and understanding when I was stuck, and always being able to
           find the time to help me out even when his schedule would get hectic.
-        </p>
-      </div>
+        </motion.p>
+      </motion.div>
     </motion.div>
   );
 }
