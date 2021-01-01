@@ -29,7 +29,7 @@ export default function SiteLayout(props) {
         breadCrumbs = ["Resume"];
         return "2";
       case "/workterms/kenna":
-        breadCrumbs = ["Workterms", "Kenna"];
+        breadCrumbs = ["Work Terms", "Kenna"];
         return "3";
       case "/about/me":
         breadCrumbs = ["About", "Me"];
