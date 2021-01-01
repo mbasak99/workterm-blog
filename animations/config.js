@@ -1,4 +1,4 @@
-/* Variants for About Me page */
+/* Basic variant for pages */
 const fadeInUp = {
   initial: {
     y: 60,
