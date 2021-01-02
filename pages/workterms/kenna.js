@@ -29,7 +29,7 @@ export default function KennaTerm() {
       <motion.div variants={stagger}>
         <motion.h2 variants={fadeInUp}>About Kenna</motion.h2>
         <motion.p variants={fadeInUp}>
-          Kenna provides Customer Relationship Management *not done yet*. They
+          Kenna provides Customer Relationship Management *NOT DONE YET*. They
           have provided their services to create better customer experiences for
           many large brands such as Colgate, BASF, Nissan, Coca Cola,
           Mercedes-Benz and many more!
@@ -83,20 +83,23 @@ export default function KennaTerm() {
       </motion.div>
       <motion.div variants={stagger}>
         <motion.h2 variants={fadeInUp}>What I've Learned</motion.h2>
-        <motion.ul variants={stagger}>
+        <motion.ul
+          variants={stagger}
+          style={{ listStyleType: "none", paddingInlineStart: 0 }}
+        >
           <motion.li variants={fadeInUp}>
             <p>
               Working across the many projects I had been placed on, I've
               learned so much from when I first started out. One of the first
               things I learned was certain projects had to support older and
-              outdated browsers which can sometimes be a huge pain, I'm looking
-              at you IE11. A lot of the nice things ES6 brings such as arrow
-              functions, spread syntax, template strings, and destructuring just
-              to name a few that I really missed. But after a while you start
-              remembering to not use them and remember to keep testing with
-              IE11, the latter being a bit harder for me to remember as the I
-              hadn't used IE11 for many, many years and honestly would forget it
-              existed at times.
+              outdated browsers which can sometimes be a huge pain -- I'm
+              looking at you, IE11. A lot of the nice things ES6 brings such as
+              arrow functions, spread syntax, template strings, and
+              destructuring just to name a few that I really missed. But after a
+              while you start remembering to not use them and remember to keep
+              testing with IE11, the latter being a bit harder for me to
+              remember as the I hadn't used IE11 for many, many years and
+              honestly would forget it existed at times.
             </p>
           </motion.li>
           <motion.li variants={fadeInUp}>
@@ -109,12 +112,26 @@ export default function KennaTerm() {
               updating existing data in tables, and removing and adding data in
               tables. Near the end of my work term, I was tasked with making a
               'Forgot My Password' feature that would be implemented at a later
-              date,
+              date, and for this task I would learn to use try/catch statements
+              along with transactions to revert changes if an error was caught
+              and then rethrow an error. I would also learn to utilize certain
+              functions like NEWID to create a unique token for the password
+              request.
             </p>
           </motion.li>
-          <motion.li variants={fadeInUp}></motion.li>
-          <motion.li variants={fadeInUp}></motion.li>
-          <motion.li variants={fadeInUp}></motion.li>
+          <motion.li variants={fadeInUp}>
+            <p>
+              WALLTITE was also where I was tasked with debugging one of the
+              hardest bugs I had encountered during my workterm, which was
+              fixing a language toggle for the site that was erratic at times.
+            </p>
+          </motion.li>
+          <motion.li variants={fadeInUp}>
+            <p></p>
+          </motion.li>
+          <motion.li variants={fadeInUp}>
+            <p></p>
+          </motion.li>
         </motion.ul>
       </motion.div>
       <motion.div variants={stagger}>
