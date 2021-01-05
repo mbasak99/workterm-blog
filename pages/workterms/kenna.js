@@ -1,6 +1,4 @@
 import Head from "next/head";
-import { motion } from "framer-motion";
-import { fadeInUp, stagger } from "../../animations/config";
 
 export default function KennaTerm() {
   return (
