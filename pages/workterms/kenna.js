@@ -4,14 +4,14 @@ import { fadeInUp, stagger } from "../../animations/config";
 
 export default function KennaTerm() {
   return (
-    <motion.div animate="animate" initial="initial">
+    <>
       <Head>
         <title>Kenna</title>
       </Head>
       <h1>Kenna (May 2020 - December 2020)</h1>
-      <motion.div variants={stagger}>
-        <motion.h2 variants={fadeInUp}>First Experience</motion.h2>
-        <motion.p variants={fadeInUp}>
+      <div>
+        <h2>First Experience</h2>
+        <p>
           I was a bit nervous when I first started out since it was my first
           ever co-op work term, and I had never coded in a professional
           environment before. I was also worried whether I'd be able to pick
@@ -24,70 +24,45 @@ export default function KennaTerm() {
           answered in their Confluence documentation, and if it's not, then
           you're encouraged to add to the documentation to help those in the
           future.
-        </motion.p>
-      </motion.div>
-      <motion.div variants={stagger}>
-        <motion.h2 variants={fadeInUp}>About Kenna</motion.h2>
-        <motion.p variants={fadeInUp}>
+        </p>
+      </div>
+      <div>
+        <h2>About Kenna</h2>
+        <p>
           Kenna provides Customer Relationship Management *NOT DONE YET*. They
           have provided their services to create better customer experiences for
           many large brands such as Colgate, BASF, Nissan, Coca Cola,
           Mercedes-Benz and many more!
-        </motion.p>
-      </motion.div>
-      <motion.div variants={stagger}>
-        <motion.h2 variants={fadeInUp}>My Goals</motion.h2>
-        <motion.ul variants={stagger}>
-          <motion.li variants={fadeInUp}>
-            Become more experienced with JavaScript and JS libraries
-          </motion.li>
-          <motion.li variants={fadeInUp}>
-            Gain experience in a professional environment
-          </motion.li>
-          <motion.li variants={fadeInUp}>
+        </p>
+      </div>
+      <div>
+        <h2>My Goals</h2>
+        <ul>
+          <li>Become more experienced with JavaScript and JS libraries</li>
+          <li>Gain experience in a professional environment</li>
+          <li>
             Gain experience using backend technologies such as Node.js and SQL
-          </motion.li>
-          <motion.li variants={fadeInUp}>
-            Become more experienced with CSS
-          </motion.li>
-          <motion.li variants={fadeInUp}>
-            Become more comfortable reading documentation
-          </motion.li>
-          <motion.li variants={fadeInUp}>
-            Become more adept at debugging code
-          </motion.li>
-        </motion.ul>
-      </motion.div>
-      <motion.div variants={stagger}>
-        <motion.h2 variants={fadeInUp}>Some Projects I Worked On</motion.h2>
-        <motion.ul variants={stagger}>
-          <motion.li variants={fadeInUp}>
-            WALLTITE (Handlebars, jQuery, CSS, Node.js, T-SQL)
-          </motion.li>
-          <motion.li variants={fadeInUp}>
-            BASF US/CAN In-Season Logistics (jQuery, CSS)
-          </motion.li>
-          <motion.li variants={fadeInUp}>
-            Retail Connect Rep Tool (jQuery, CSS)
-          </motion.li>
-          <motion.li variants={fadeInUp}>
-            BASF Event Management (React, CSS)
-          </motion.li>
-          <motion.li variants={fadeInUp}>
-            Market Connect (React, Redux, Node.js, T-SQL)
-          </motion.li>
-          <motion.li variants={fadeInUp}>
-            In-house tools (SQL, LotusScript)
-          </motion.li>
-        </motion.ul>
-      </motion.div>
-      <motion.div variants={stagger}>
-        <motion.h2 variants={fadeInUp}>What I've Learned</motion.h2>
-        <motion.ul
-          variants={stagger}
-          style={{ listStyleType: "none", paddingInlineStart: 0 }}
-        >
-          <motion.li variants={fadeInUp}>
+          </li>
+          <li>Become more experienced with CSS</li>
+          <li>Become more comfortable reading documentation</li>
+          <li>Become more adept at debugging code</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Some Projects I Worked On</h2>
+        <ul>
+          <li>WALLTITE (Handlebars, jQuery, CSS, Node.js, T-SQL)</li>
+          <li>BASF US/CAN In-Season Logistics (jQuery, CSS)</li>
+          <li>Retail Connect Rep Tool (jQuery, CSS)</li>
+          <li>BASF Event Management (React, CSS)</li>
+          <li>Market Connect (React, Redux, Node.js, T-SQL)</li>
+          <li>In-house tools (SQL, LotusScript)</li>
+        </ul>
+      </div>
+      <div>
+        <h2>What I've Learned</h2>
+        <ul style={{ listStyleType: "none", paddingInlineStart: 0 }}>
+          <li>
             <p>
               Working across the many projects I had been placed on, I've
               learned so much from when I first started out. One of the first
@@ -101,8 +76,8 @@ export default function KennaTerm() {
               remember as the I hadn't used IE11 for many, many years and
               honestly would forget it existed at times.
             </p>
-          </motion.li>
-          <motion.li variants={fadeInUp}>
+          </li>
+          <li>
             <p>
               Working on WALLTITE and BASF In-Season Logistics allowed me to get
               more backend experience, especially on WALLTITE as I was the only
@@ -118,25 +93,25 @@ export default function KennaTerm() {
               functions like NEWID to create a unique token for the password
               request.
             </p>
-          </motion.li>
-          <motion.li variants={fadeInUp}>
+          </li>
+          <li>
             <p>
               WALLTITE was also where I was tasked with debugging one of the
               hardest bugs I had encountered during my workterm, which was
               fixing a language toggle for the site that was erratic at times.
             </p>
-          </motion.li>
-          <motion.li variants={fadeInUp}>
+          </li>
+          <li>
             <p></p>
-          </motion.li>
-          <motion.li variants={fadeInUp}>
+          </li>
+          <li>
             <p></p>
-          </motion.li>
-        </motion.ul>
-      </motion.div>
-      <motion.div variants={stagger}>
-        <motion.h2 variants={fadeInUp}>Acknowledgements</motion.h2>
-        <motion.p variants={fadeInUp}>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2>Acknowledgements</h2>
+        <p>
           A huge shoutout to Kenna, first of all, when I received the co-op
           offer (which I promptly accepted) COVID-19 troubles were right around
           the corner but I was assured that all incoming and existing co-op
@@ -157,8 +132,8 @@ export default function KennaTerm() {
           much about the tools and technolgies I'd have to work with, for being
           patient and understanding when I was stuck, and always being able to
           find the time to help me out even when his schedule would get hectic.
-        </motion.p>
-      </motion.div>
-    </motion.div>
+        </p>
+      </div>
+    </>
   );
 }
