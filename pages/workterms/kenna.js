@@ -34,19 +34,6 @@ export default function KennaTerm() {
         </p>
       </div>
       <div>
-        <h2>My Goals</h2>
-        <ul>
-          <li>Become more experienced with JavaScript and JS libraries</li>
-          <li>Gain experience in a professional environment</li>
-          <li>
-            Gain experience using backend technologies such as Node.js and SQL
-          </li>
-          <li>Become more experienced with CSS</li>
-          <li>Become more comfortable reading documentation</li>
-          <li>Become more adept at debugging code</li>
-        </ul>
-      </div>
-      <div>
         <h2>Some Projects I Worked On</h2>
         <ul>
           <li>WALLTITE (Handlebars, jQuery, CSS, Node.js, T-SQL)</li>
@@ -54,10 +41,92 @@ export default function KennaTerm() {
           <li>Retail Connect Rep Tool (jQuery, CSS)</li>
           <li>BASF Event Management (React, CSS)</li>
           <li>Market Connect (React, Redux, Node.js, T-SQL)</li>
-          <li>In-house tools (SQL, LotusScript)</li>
+          <li>In-house tools/apps (SQL, LotusScript)</li>
+        </ul>
+        <span>{/* Put images for some of tech mentioned here */}</span>
+      </div>
+      <div>
+        <h2>My Goals</h2>
+        <ul>
+          <li>
+            Become more experienced with JavaScript and JS framework/libraries
+          </li>
+          <li>
+            Gain experience utilizing project management tools in a professional
+            environment
+          </li>
+          <li>
+            Gain experience using back-end technologies such as Node.js and SQL
+          </li>
+          <li>Become more experienced with CSS</li>
+          <li>Become more comfortable reading documentation</li>
+          <li>Become more adept at debugging code</li>
         </ul>
       </div>
       <div>
+        <h2>Did I Achieve My Goals?</h2>
+        <p>
+          Yes, I've definitely accomplished the goals I set through this work
+          term. To start off, I've gained much experience working in projects
+          that utilize JavaScript with all kinds of libraries, from Kendo UI
+          which creates wonderful UI components to Underscore.js/Lodash a
+          library that brings utility for common programming tasks, but also
+          HighCharts a library that visually renders data into different types
+          of graphs. I was able to become more proficient with CSS, enhance my
+          debugging skills and get better at reading documentation
+        </p>
+      </div>
+      <div>
+        <h2>Overview of My Workterm</h2>
+        <p>
+          When I first started out I was tasked with making small changes such
+          as adjusting style changes for a particular piece of content or fixing
+          relatively simple bugs like changing how a boolean value is set. But
+          as my time at Kenna grew, along with my experience, I was assigned
+          more and more significant tasks. I was assigned tasks that had me
+          creating small features for certain projects' pages such as pop-ups
+          for an action a user wanted to perform. I would also receive tasks
+          that required me to iron out bugs that occurred and would require me
+          to take more time and use the debugging tools available to really
+          hammer out the problems.
+        </p>
+      </div>
+      <div>
+        <h2>Technologies I Wanted To Work With</h2>
+        <p>
+          I mainly wanted to work with any of the popular JS libraries such as
+          React, and/or jQuery. I also wanted to work with backend technologies
+          such as Node.js and SQL.
+        </p>
+      </div>
+      <div>
+        <h2>Why Those Technologies?</h2>
+        <p>
+          I mainly wanted to work with jQuery and React libraries as they're
+          used at most companies, but jQuery in particular because I have had to
+          utilize the library for a course project making me familiar with it. I
+          also wanted to work with back-end technologies because every
+          application needs one to store, retrieve and manipulate data. SQL (or
+          similar DBs) are generally used to store data and Node.js is used to
+          communicate with the DB for web apps. At Kenna I got to work with
+          those technologies, I initially started with a bit of React but was
+          later put into projects that all used jQuery as that's where I was
+          needed the most. I was also able to work with SQL, specifically T-SQL,
+          for storing data and was able to work on Node.js projects creating
+          routes and services that communicated with the DB.
+        </p>
+      </div>
+      <div>
+        <h2>What Did I Learn?</h2>
+        <div>
+          <h3>Documentation</h3>
+          <p>
+            I learned how important having good documentation can save on so
+            much time
+          </p>
+        </div>
+      </div>
+      {/* <div>
         <h2>What I've Learned</h2>
         <ul style={{ listStyleType: "none", paddingInlineStart: 0 }}>
           <li>
@@ -106,7 +175,7 @@ export default function KennaTerm() {
             <p></p>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div>
         <h2>Acknowledgements</h2>
         <p>
