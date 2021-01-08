@@ -27,10 +27,16 @@ export default function KennaTerm() {
       <div>
         <h2>About Kenna</h2>
         <p>
-          Kenna provides Customer Relationship Management *NOT DONE YET*. They
-          have provided their services to create better customer experiences for
-          many large brands such as Colgate, BASF, Nissan, Coca Cola,
-          Mercedes-Benz and many more!
+          Kenna is a subsidiary of MDC Partners, an advertising and marketing
+          holding company based in NYC with 50+ partner firms around the world.
+          Kenna is a marketing solutions provider and is specialized in helping
+          other businesses design and provide more unified experiences for their
+          customers. They provide these unified experiences enabling marketing
+          and sales to easily interact and engage with customers, and providing
+          the information they want, when it's wanted it. They have provided
+          their services to create better customer experiences for many large
+          brands such as Colgate, BASF, Nissan, Coca Cola, Mercedes-Benz and
+          many more!
         </p>
       </div>
       <div>
@@ -73,7 +79,10 @@ export default function KennaTerm() {
           library that brings utility for common programming tasks, but also
           HighCharts a library that visually renders data into different types
           of graphs. I was able to become more proficient with CSS, enhance my
-          debugging skills and get better at reading documentation
+          debugging skills and get better at reading documentation when I was
+          assigned to work on the WALLTITE project, where I was one of the two
+          devs working on it at the time. Due to that fact, I was able to take
+          on more tasks and learn more *NOT DONE YET*
         </p>
       </div>
       <div>
@@ -111,9 +120,10 @@ export default function KennaTerm() {
           communicate with the DB for web apps. At Kenna I got to work with
           those technologies, I initially started with a bit of React but was
           later put into projects that all used jQuery as that's where I was
-          needed the most. I was also able to work with SQL, specifically T-SQL,
-          for storing data and was able to work on Node.js projects creating
-          routes and services that communicated with the DB.
+          needed the most. I was also able to work with SQL -- specifically
+          T-SQL as Kenna uses Microsoft SQL Server -- for storing data and was
+          able to work on Node.js projects creating routes and services that
+          communicated with the DB.
         </p>
       </div>
       <div>
