@@ -94,10 +94,11 @@ export default function KennaTerm() {
           as my time at Kenna grew, along with my experience, I was assigned
           more and more significant tasks. I was assigned tasks that had me
           creating small features for certain projects' pages such as pop-ups
-          for an action a user wanted to perform. I would also receive tasks
-          that required me to iron out bugs that occurred and would require me
-          to take more time and use the debugging tools available to really
-          hammer out the problems.
+          for an action a user wanted to perform and finally transitioned to
+          creating a full page that contained multiple features based from a
+          wireframe. I would also receive tasks that required me to iron out
+          bugs that occurred and would require me to take more time and use the
+          debugging tools available to really hammer out the problems.
         </p>
       </div>
       <div>
@@ -132,7 +133,25 @@ export default function KennaTerm() {
           <h3>Documentation</h3>
           <p>
             I learned how important having good documentation can save on so
-            much time
+            much time and allow you to focus on solving the problem at hand.
+            When I first started I did my best to go to the extensive
+            documentation Kenna had on their Confluence site. As it would
+            prevent me from defaulting to ask my peers as the first step and
+            leave it as a last resort and allow myself to be more independent
+            where I can be. It also made me painfully aware how annoying bad
+            documentation can be. One such time was when I was utilizing a Kendo
+            UI (a JavaScript UI library) component for a project.
+          </p>
+          <h3>Asking questions</h3>
+          <p>
+            I also learned that you might not always have the whole picture or
+            that you might forget something over time, and if that happens
+            asking questions can help so much. I was lucky enough to have great
+            people around me in the dev teams and the business side teams, they
+            made it possible where I wasn't afraid to ask questions when I was
+            confused or just wanted more info on something. It's especially
+            important to ask questions if the task at hand is time sensitive,
+            the sooner you ask questions the sooner you can complete tasks.
           </p>
         </div>
       </div>
