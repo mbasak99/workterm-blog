@@ -16,12 +16,12 @@ export default function KennaTerm() {
           things up that are specifc to Kenna such as utilizing certain tools in
           a specific way, or things of that nature. But looking back now I think
           that was foolish as I had great support from fellow developers and my
-          mentor who were always willing to lend a hand when I was stuck. Kenna
-          also documented their tools, projects and practically everything else
-          very well, if there's a question to be asked, it's probably been
-          answered in their Confluence documentation, and if it's not, then
-          you're encouraged to add to the documentation to help those in the
-          future.
+          mentor/supervisor who were always willing to lend a hand when I was
+          stuck. Kenna also documented their tools, projects and practically
+          everything else very well. If there's a question to be asked, it's
+          probably already answered in their Confluence documentation, and if
+          it's not, then you're encouraged to add to the documentation to help
+          those in the future.
         </p>
       </div>
       <div>
@@ -42,12 +42,12 @@ export default function KennaTerm() {
       <div>
         <h2>Some Projects I Worked On</h2>
         <ul>
-          <li>WALLTITE (Handlebars, jQuery, CSS, Node.js, T-SQL)</li>
+          <li>WALLTITE (Handlebars, jQuery, CSS, Node.js, MS SQL/T-SQL)</li>
           <li>BASF US/CAN In-Season Logistics (jQuery, CSS)</li>
           <li>Retail Connect Rep Tool (jQuery, CSS)</li>
           <li>BASF Event Management (React, CSS)</li>
-          <li>Market Connect (React, Redux, Node.js, T-SQL)</li>
-          <li>In-house tools/apps (SQL, LotusScript)</li>
+          <li>Market Connect (React, Redux, Node.js, MS SQL/T-SQL)</li>
+          <li>In-house tools/apps (MS SQL/T-SQL, LotusScript)</li>
         </ul>
         <span>{/* Put images for some of tech mentioned here */}</span>
       </div>
@@ -82,11 +82,29 @@ export default function KennaTerm() {
           debugging skills and get better at reading documentation when I was
           assigned to work on the WALLTITE project, where I was one of the two
           devs working on it at the time. Due to that fact, I was able to take
-          on more tasks and learn more *NOT DONE YET*
+          on more tasks and learn more about styling, debugging and reading the
+          documentation for some tech that was used for this project. I was also
+          able to solve a language toggle issue where the site's language would
+          change for everyone from English to French (or vice versa) when many
+          people were on the site that was plaguing the site for a few months
+          before I was brought on for the project. Throughout the work term I
+          was utilizing many different project management tools such as JIRA to
+          keep track of tickets assigned to me, but also to help break down some
+          tasks that seemed large into more manageable sizes and also BitBucket
+          for making sure the changes introduced for a ticket are also up on
+          dev/test environments. I was also able to accomplish my goal of
+          working with back-end technologies over my work term, specifically
+          with Node.js and SQL. I was tasked with creating a 'Forgot My
+          Password' feature where I had to create unique tokens that the user
+          could use to reset their account's password I utilized Node.js to
+          create specific routes (for the AJAX calls in front-end) and call db
+          procedures, while I had to use try/catch blocks, transactions
+          statements, error throwing and some other back-end logic on the SQL
+          side in order to make everything work.
         </p>
       </div>
       <div>
-        <h2>Overview of My Workterm</h2>
+        <h2>Overview of My Work Term</h2>
         <p>
           When I first started out I was tasked with making small changes such
           as adjusting style changes for a particular piece of content or fixing

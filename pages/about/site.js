@@ -22,7 +22,9 @@ export default function AboutSite() {
         <p>
           This site was made to help reflect on the work experience we gain(ed)
           over the course of our co-op program. But also as a way to track our
-          own progress when looking back.
+          own progress when looking back. I also wanted to create my own site as
+          opposed to using WordPress or some other site builder because I wanted
+          to experiment with some technologies I had heard about.
         </p>
       </div>
     </>
