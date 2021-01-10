@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Image from "next/image";
+import styles from "../../styles/kenna.module.css";
 
 export default function KennaTerm() {
   return (
@@ -31,12 +33,12 @@ export default function KennaTerm() {
           holding company based in NYC with 50+ partner firms around the world.
           Kenna is a marketing solutions provider and is specialized in helping
           other businesses design and provide more unified experiences for their
-          customers. They provide these unified experiences enabling marketing
-          and sales to easily interact and engage with customers, and providing
-          the information they want, when it's wanted it. They have provided
-          their services to create better customer experiences for many large
-          brands such as Colgate, BASF, Nissan, Coca Cola, Mercedes-Benz and
-          many more!
+          customers. They provide these unified experiences by enabling
+          marketing and sales to easily interact and engage with customers, and
+          providing the information they want, when it's wanted it. They have
+          provided their services to create better customer experiences for many
+          large brands such as Colgate, BASF, Nissan, Coca Cola, Mercedes-Benz
+          and many more!
         </p>
       </div>
       <div>
@@ -49,7 +51,57 @@ export default function KennaTerm() {
           <li>Market Connect (React, Redux, Node.js, MS SQL/T-SQL)</li>
           <li>In-house tools/apps (MS SQL/T-SQL, LotusScript)</li>
         </ul>
-        <span>{/* Put images for some of tech mentioned here */}</span>
+        <span className={styles.kenna_projects}>
+          <Image
+            src="/site_tech/CSS3.svg"
+            height="100"
+            width="100"
+            alt="CSS3 logo"
+            layout="intrinsic"
+          />
+          <Image
+            src="/site_tech/Nodejs.svg"
+            height="100"
+            width="100"
+            alt="Node.js logo"
+            layout="intrinsic"
+          />
+          <Image
+            src="/site_tech/handlebars_logo.png"
+            height="101"
+            width="133"
+            alt="Handlerbars logo"
+            layout="intrinsic"
+          />
+          <Image
+            src="/site_tech/react-icon.svg"
+            height="100"
+            width="100"
+            alt="React logo"
+            layout="intrinsic"
+          />
+          <Image
+            src="/site_tech/redux.svg"
+            height="100"
+            width="100"
+            alt="Redux logo"
+            layout="intrinsic"
+          />
+          <Image
+            src="/site_tech/jquery.png"
+            height="100"
+            width="183"
+            alt="jQuery logo"
+            layout="intrinsic"
+          />
+          <Image
+            src="/site_tech/sql-server.png"
+            height="100"
+            width="163"
+            alt="MS SQL logo"
+            layout="intrinsic"
+          />
+        </span>
       </div>
       <div>
         <h2>My Goals</h2>

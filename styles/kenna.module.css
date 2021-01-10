@@ -1,0 +1,10 @@
+.kenna_projects {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kenna_projects > div {
+  margin: 5px 10px !important;
+}
