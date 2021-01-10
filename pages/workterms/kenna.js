@@ -144,7 +144,7 @@ export default function KennaTerm() {
         <h2>Technologies I Wanted To Work With</h2>
         <p>
           I mainly wanted to work with any of the popular JS libraries such as
-          React, and/or jQuery. I also wanted to work with backend technologies
+          React, and/or jQuery. I also wanted to work with back-end technologies
           such as Node.js and SQL.
         </p>
       </div>
