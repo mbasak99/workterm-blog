@@ -28,18 +28,27 @@ export default function KennaTerm() {
       </div>
       <div>
         <h2>About Kenna</h2>
-        <p>
-          Kenna is a subsidiary of MDC Partners, an advertising and marketing
-          holding company based in NYC with 50+ partner firms around the world.
-          Kenna is a marketing solutions provider and is specialized in helping
-          other businesses design and provide more unified experiences for their
-          customers. They provide these unified experiences by enabling
-          marketing and sales to easily interact and engage with customers, and
-          providing the information they want, when it's wanted it. They have
-          provided their services to create better customer experiences for many
-          large brands such as Colgate, BASF, Nissan, Coca Cola, Mercedes-Benz
-          and many more!
-        </p>
+        <span className={styles.about_kenna}>
+          <p>
+            Kenna is a subsidiary of MDC Partners, an advertising and marketing
+            holding company based in NYC with 50+ partner firms around the
+            world. Kenna is a marketing solutions provider and is specialized in
+            helping other businesses design and provide more unified experiences
+            for their customers. They provide these unified experiences by
+            enabling marketing and sales to easily interact and engage with
+            customers, and providing the information they want, when it's wanted
+            it. They have provided their services to create better customer
+            experiences for many large brands such as Colgate, BASF, Nissan,
+            Coca Cola, Mercedes-Benz and many more!
+          </p>
+          <Image
+            src="/site_tech/kenna.png"
+            height="100"
+            width="400"
+            alt="Kenna logo"
+            layout="intrinsic"
+          />
+        </span>
       </div>
       <div>
         <h2>Some Projects I Worked On</h2>

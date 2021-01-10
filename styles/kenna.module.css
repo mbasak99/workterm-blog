@@ -1,3 +1,11 @@
+.about_kenna {
+  display: flex;
+}
+
+.about_kenna p {
+  flex-basis: auto;
+}
+
 .kenna_projects {
   display: flex;
   align-items: flex-start;
