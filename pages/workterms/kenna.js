@@ -104,6 +104,48 @@ export default function KennaTerm() {
         </span>
       </div>
       <div>
+        <h2>Overview of My Work Term</h2>
+        <p>
+          When I first started out I was tasked with making small changes such
+          as adjusting style changes for a particular piece of content or fixing
+          relatively simple bugs like changing how a boolean value is set. But
+          as my time at Kenna grew, along with my experience, I was assigned
+          more and more significant tasks. I was assigned tasks that had me
+          creating small features for certain projects' pages such as pop-ups
+          for an action a user wanted to perform and finally transitioned to
+          creating a full page that contained multiple features based from a
+          wireframe. I would also receive tasks that required me to iron out
+          bugs that occurred and would require me to take more time and use the
+          debugging tools available to really hammer out the problems.
+        </p>
+      </div>
+      <div>
+        <h2>Technologies I Wanted To Work With</h2>
+        <p>
+          I mainly wanted to work with any of the popular JS libraries such as
+          React, and/or jQuery. I also wanted to work with backend technologies
+          such as Node.js and SQL.
+        </p>
+      </div>
+      <div>
+        <h2>Why Those Technologies?</h2>
+        <p>
+          I mainly wanted to work with jQuery and React libraries as they're
+          used at most companies, but jQuery in particular because I have had to
+          utilize the library for a course project making me familiar with it. I
+          also wanted to work with back-end technologies because every
+          application needs one to store, retrieve and manipulate data. SQL (or
+          similar DBs) are generally used to store data and Node.js is used to
+          communicate with the DB for web apps. At Kenna I got to work with
+          those technologies, I initially started with a bit of React but was
+          later put into projects that all used jQuery as that's where I was
+          needed the most. I was also able to work with SQL -- specifically
+          T-SQL as Kenna uses Microsoft SQL Server -- for storing data and was
+          able to work on Node.js projects creating routes and services that
+          communicated with the DB.
+        </p>
+      </div>
+      <div>
         <h2>My Goals</h2>
         <ul>
           <li>
@@ -153,48 +195,6 @@ export default function KennaTerm() {
           procedures, while I had to use try/catch blocks, transactions
           statements, error throwing and some other back-end logic on the SQL
           side in order to make everything work.
-        </p>
-      </div>
-      <div>
-        <h2>Overview of My Work Term</h2>
-        <p>
-          When I first started out I was tasked with making small changes such
-          as adjusting style changes for a particular piece of content or fixing
-          relatively simple bugs like changing how a boolean value is set. But
-          as my time at Kenna grew, along with my experience, I was assigned
-          more and more significant tasks. I was assigned tasks that had me
-          creating small features for certain projects' pages such as pop-ups
-          for an action a user wanted to perform and finally transitioned to
-          creating a full page that contained multiple features based from a
-          wireframe. I would also receive tasks that required me to iron out
-          bugs that occurred and would require me to take more time and use the
-          debugging tools available to really hammer out the problems.
-        </p>
-      </div>
-      <div>
-        <h2>Technologies I Wanted To Work With</h2>
-        <p>
-          I mainly wanted to work with any of the popular JS libraries such as
-          React, and/or jQuery. I also wanted to work with backend technologies
-          such as Node.js and SQL.
-        </p>
-      </div>
-      <div>
-        <h2>Why Those Technologies?</h2>
-        <p>
-          I mainly wanted to work with jQuery and React libraries as they're
-          used at most companies, but jQuery in particular because I have had to
-          utilize the library for a course project making me familiar with it. I
-          also wanted to work with back-end technologies because every
-          application needs one to store, retrieve and manipulate data. SQL (or
-          similar DBs) are generally used to store data and Node.js is used to
-          communicate with the DB for web apps. At Kenna I got to work with
-          those technologies, I initially started with a bit of React but was
-          later put into projects that all used jQuery as that's where I was
-          needed the most. I was also able to work with SQL -- specifically
-          T-SQL as Kenna uses Microsoft SQL Server -- for storing data and was
-          able to work on Node.js projects creating routes and services that
-          communicated with the DB.
         </p>
       </div>
       <div>
