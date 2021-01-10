@@ -2,30 +2,46 @@
   transform: scale(2.5);
 }
 
-.name_svg_header {
+.name_svg_header,
+.collapsed_name_svg_header {
   float: left;
   margin: -15px 70px;
 }
 
-.name_svg_header > div {
+.name_svg_header > div,
+.collapsed_name_svg_header > div {
   transform: scale(2);
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 639px) {
   .name_svg_header {
     content: url("/monark_v2_animated.svg");
     margin: -20px 20px;
   }
 }
 
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 520px) {
+  .collapsed_name_svg_header {
+    content: url("/monark_v2_animated.svg");
+    margin: -20px 20px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
   .name_svg_header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .collapsed_name_svg_header {
     display: none;
   }
 }
 
 .resume_link {
   font-size: 1rem;
+  margin-right: 10px;
 }
 
 .personal_links a {

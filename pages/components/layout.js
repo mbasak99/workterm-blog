@@ -18,7 +18,7 @@ const { Header, Sider, Content } = Layout;
 const { SubMenu } = Menu;
 
 export default function SiteLayout(props) {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
 
   var breadCrumbs = [];
   var route = useRouter();
@@ -60,11 +60,11 @@ export default function SiteLayout(props) {
               <a>Home</a>
             </Link>
           </Menu.Item>
-          <Menu.Item key="2" icon={<FileOutlined />}>
+          {/* <Menu.Item key="2" icon={<FileOutlined />}>
             <Link href="/resume">
               <a>Resume</a>
             </Link>
-          </Menu.Item>
+          </Menu.Item> */}
           <SubMenu key="sub1" icon={<DesktopOutlined />} title="Work terms">
             <Menu.Item key="3">
               <Link href="/workterms/kenna">
@@ -98,7 +98,13 @@ export default function SiteLayout(props) {
       </Sider>
       <Layout className="site-layout">
         <Header className="site-layout-background" style={{ padding: 0 }}>
-          <span className={styles.name_svg_header}>
+          <span
+            className={
+              !collapsed
+                ? styles.name_svg_header
+                : styles.collapsed_name_svg_header
+            }
+          >
             <Image
               className="header_svg"
               src="/monarksblog_animated.svg"
@@ -108,16 +114,17 @@ export default function SiteLayout(props) {
             {/* Site used to animate my SVG is https://maxwellito.github.io/vivus-instant/ */}
           </span>
           <div className={styles.personal_links} style={{ float: "right" }}>
-            {/* <span>
+            <span>
               <a
                 className={styles.resume_link}
                 href="/Monark_Basak_Resume.pdf"
                 title="Resume"
                 target="_blank"
               >
-                Resume <FileOutlined />
+                <strong>Resume</strong>
+                {/* <FileOutlined /> */}
               </a>
-            </span> */}
+            </span>
             <span>
               <a
                 href="https://www.linkedin.com/in/monark-basak-402172144/"
