@@ -291,9 +291,9 @@ export default function KennaTerm() {
             leave it as a last resort and allow myself to be more independent
             where I can be. It also made me painfully aware how annoying bad
             documentation can be. One such time was when I was utilizing a Kendo
-            UI (a JavaScript UI library) component for a project, where the info
-            I was trying to find and understand was very minimal in their docs
-            for that particular component.
+            UI (a JavaScript UI library) component for a project, where the
+            information I was trying to find and understand was very minimal in
+            their docs for that particular component.
           </p>
           <span className={styles.kenna_projects}>
             <Image
