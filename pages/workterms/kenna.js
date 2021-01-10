@@ -173,56 +173,6 @@ export default function KennaTerm() {
           </p>
         </div>
       </div>
-      {/* <div>
-        <h2>What I've Learned</h2>
-        <ul style={{ listStyleType: "none", paddingInlineStart: 0 }}>
-          <li>
-            <p>
-              Working across the many projects I had been placed on, I've
-              learned so much from when I first started out. One of the first
-              things I learned was certain projects had to support older and
-              outdated browsers which can sometimes be a huge pain -- I'm
-              looking at you, IE11. A lot of the nice things ES6 brings such as
-              arrow functions, spread syntax, template strings, and
-              destructuring just to name a few that I really missed. But after a
-              while you start remembering to not use them and remember to keep
-              testing with IE11, the latter being a bit harder for me to
-              remember as the I hadn't used IE11 for many, many years and
-              honestly would forget it existed at times.
-            </p>
-          </li>
-          <li>
-            <p>
-              Working on WALLTITE and BASF In-Season Logistics allowed me to get
-              more backend experience, especially on WALLTITE as I was the only
-              one was working in the backend (Node.js and T-SQL), but I got to
-              learn a lot because of that reason and because I had never had
-              experience working with SQL at all. In WALLTITE I learned about
-              updating existing data in tables, and removing and adding data in
-              tables. Near the end of my work term, I was tasked with making a
-              'Forgot My Password' feature that would be implemented at a later
-              date, and for this task I would learn to use try/catch statements
-              along with transactions to revert changes if an error was caught
-              and then rethrow an error. I would also learn to utilize certain
-              functions like NEWID to create a unique token for the password
-              request.
-            </p>
-          </li>
-          <li>
-            <p>
-              WALLTITE was also where I was tasked with debugging one of the
-              hardest bugs I had encountered during my workterm, which was
-              fixing a language toggle for the site that was erratic at times.
-            </p>
-          </li>
-          <li>
-            <p></p>
-          </li>
-          <li>
-            <p></p>
-          </li>
-        </ul>
-      </div> */}
       <div>
         <h2>Acknowledgements</h2>
         <p>
