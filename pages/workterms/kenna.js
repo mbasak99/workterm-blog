@@ -176,34 +176,44 @@ export default function KennaTerm() {
         <h2>Did I Achieve My Goals?</h2>
         <p>
           Yes, I've definitely accomplished the goals I set through this work
-          term. To start off, I've gained much experience working in projects
-          that utilize JavaScript with all kinds of libraries, from Kendo UI
-          which creates wonderful UI components to Underscore.js/Lodash a
-          library that brings utility for common programming tasks, but also
-          HighCharts a library that visually renders data into different types
-          of graphs. I was able to become more proficient with CSS, enhance my
-          debugging skills and get better at reading documentation when I was
-          assigned to work on the WALLTITE project, where I was one of the two
-          devs working on it at the time. Due to that fact, I was able to take
-          on more tasks and learn more about styling, debugging and reading the
-          documentation for some tech that was used for this project. I was also
-          able to solve a language toggle issue where the site's language would
-          change for everyone from English to French (or vice versa) when many
-          people were on the site that was plaguing the site for a few months
-          before I was brought on for the project. Throughout the work term I
-          was utilizing many different project management tools such as JIRA to
-          keep track of tickets assigned to me, but also to help break down some
-          tasks that seemed large into more manageable sizes and also BitBucket
-          for making sure the changes introduced for a ticket are also up on
-          dev/test environments. I was also able to accomplish my goal of
-          working with back-end technologies over my work term, specifically
-          with Node.js and SQL. I was tasked with creating a 'Forgot My
-          Password' feature where I had to create unique tokens that the user
-          could use to reset their account's password I utilized Node.js to
-          create specific routes (for the AJAX calls in front-end) and call db
-          procedures, while I had to use try/catch blocks, transactions
-          statements, error throwing and some other back-end logic on the SQL
-          side in order to make everything work.
+          term.
+        </p>
+        <p>
+          To start off, I've gained much experience working in projects that
+          utilize JavaScript with all kinds of libraries, from Kendo UI which
+          creates wonderful UI components to Underscore.js/Lodash a library that
+          brings utility for common programming tasks, but also HighCharts a
+          library that visually renders data into different types of graphs.
+        </p>
+
+        <p>
+          I was able to become more proficient with CSS, enhance my debugging
+          skills and get better at reading documentation when I was assigned to
+          work on the WALLTITE project, where I was one of the two devs working
+          on it at the time. Due to that fact, I was able to take on more tasks
+          and learn more about styling, debugging and reading the documentation
+          for some tech that was used for this project. I was also able to solve
+          a language toggle issue where the site's language would change for
+          everyone from English to French (or vice versa) when many people were
+          on the site that was plaguing the site for a few months before I was
+          brought on for the project.
+        </p>
+        <p>
+          Throughout the work term I was utilizing many different project
+          management tools such as JIRA to keep track of tickets assigned to me,
+          but also to help break down some tasks that seemed large into more
+          manageable sizes and also BitBucket for making sure the changes
+          introduced for a ticket are also up on dev/test environments.
+        </p>
+        <p>
+          I was also able to accomplish my goal of working with back-end
+          technologies over my work term, specifically with Node.js and SQL. I
+          was tasked with creating a 'Forgot My Password' feature where I had to
+          create unique tokens that the user could use to reset their account's
+          password I utilized Node.js to create specific routes (for the AJAX
+          calls in front-end) and call db procedures, while I had to use
+          try/catch blocks, transactions statements, error throwing and some
+          other back-end logic on the SQL side in order to make everything work.
         </p>
       </div>
       <div>
