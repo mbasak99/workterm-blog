@@ -228,8 +228,8 @@ export default function KennaTerm() {
           for some of the tech that was used for this project. I was also able
           to solve a language toggle issue where the site's language would
           change for everyone from English to French (or vice versa) when many
-          people were on the site that was plaguing the site for a few months
-          before I was brought on for the project.
+          people were on the site. This was an issue for a few months before I
+          was brought on for the project.
         </p>
         <span className={styles.kenna_projects}>
           <Image
