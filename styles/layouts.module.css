@@ -4,7 +4,7 @@
 
 .name_svg_header {
   float: left;
-  margin: -15px 55px;
+  margin: -15px 70px;
 }
 
 .name_svg_header > div {
@@ -14,7 +14,7 @@
 @media only screen and (max-width: 425px) {
   .name_svg_header {
     content: url("/monark_v2_animated.svg");
-    margin: -15px 10px;
+    margin: -20px 20px;
   }
 }
 
@@ -43,9 +43,9 @@
   -ms-user-select: none;
 }
 
-.logo {
+/* .logo {
   height: 29px;
   margin: 16px;
   margin-left: 25px;
   content: url("/site_tech/antd_logo.svg");
-}
+} */

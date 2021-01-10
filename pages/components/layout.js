@@ -18,7 +18,7 @@ const { Header, Sider, Content } = Layout;
 const { SubMenu } = Menu;
 
 export default function SiteLayout(props) {
-  const [collapsed, setCollapsed] = useState(true);
+  const [collapsed, setCollapsed] = useState(false);
 
   var breadCrumbs = [];
   var route = useRouter();
@@ -53,7 +53,7 @@ export default function SiteLayout(props) {
         }}
         className={styles.layout_sider}
       >
-        <div className={styles.logo} />
+        {/* <div className={styles.logo} /> */}
         <Menu theme="dark" defaultSelectedKeys={[itemSelected()]} mode="inline">
           <Menu.Item key="1" icon={<PieChartOutlined />}>
             <Link href="/">
