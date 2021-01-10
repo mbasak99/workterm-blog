@@ -231,8 +231,8 @@ export default function KennaTerm() {
           for some of the tech that was used for this project. I was also able
           to solve a language toggle issue where the site's language would
           change for everyone from English to French (or vice versa) when many
-          people were on the site. This was an issue for a few months before I
-          was brought on for the project.
+          people were on the site during dev/test. This was an issue for a few
+          months before I was brought on for the project.
         </p>
         <span className={styles.kenna_projects}>
           <Image
@@ -287,12 +287,13 @@ export default function KennaTerm() {
             much time and allow you to focus on solving the problem at hand.
             When I first started I did my best to go to the extensive
             documentation Kenna had on their Confluence site. As it would
-            prevent me from defaulting to ask my peers as the first step and
+            prevent me from defaulting to asking my peers as the first step and
             leave it as a last resort and allow myself to be more independent
             where I can be. It also made me painfully aware how annoying bad
             documentation can be. One such time was when I was utilizing a Kendo
             UI (a JavaScript UI library) component for a project, where the info
-            I was trying to find and understand was very minimal in their docs.
+            I was trying to find and understand was very minimal in their docs
+            for that particular component.
           </p>
           <span className={styles.kenna_projects}>
             <Image
