@@ -225,12 +225,21 @@ export default function KennaTerm() {
           work on the WALLTITE project, where I was one of the two devs working
           on it at the time. Due to that fact, I was able to take on more tasks
           and learn more about styling, debugging and reading the documentation
-          for some tech that was used for this project. I was also able to solve
-          a language toggle issue where the site's language would change for
-          everyone from English to French (or vice versa) when many people were
-          on the site that was plaguing the site for a few months before I was
-          brought on for the project.
+          for some of the tech that was used for this project. I was also able
+          to solve a language toggle issue where the site's language would
+          change for everyone from English to French (or vice versa) when many
+          people were on the site that was plaguing the site for a few months
+          before I was brought on for the project.
         </p>
+        <span className={styles.kenna_projects}>
+          <Image
+            src="/misc/devblog-debug.png"
+            height="350"
+            width="560"
+            alt="Debugging"
+            layout="intrinsic"
+          />
+        </span>
         <p>
           Throughout the work term I was utilizing different project management
           tools such as JIRA to keep track of tickets assigned to me, but also
