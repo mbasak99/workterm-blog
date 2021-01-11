@@ -17,9 +17,22 @@ body {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 48px;
   text-align: center;
   border-bottom: 2px #454a4d solid;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p,
+ul {
+  font-size: 24px;
 }
 
 div.content-container {

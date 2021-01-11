@@ -30,7 +30,7 @@ export default function KennaTerm() {
       <div>
         <h2>About Kenna</h2>
         <span className={styles.para_format}>
-          <p style={{ marginRight: 10 }}>
+          <p className={styles.left_para}>
             Kenna is a subsidiary of MDC Partners, an advertising and marketing
             holding company based in NYC with 50+ partner firms around the
             world. Kenna is a marketing solutions provider and is specialized in
@@ -42,13 +42,6 @@ export default function KennaTerm() {
             experiences for many large brands such as Colgate, BASF, Nissan,
             Coca Cola, Mercedes-Benz and many more!
           </p>
-          {/* <Image
-            src="/site_tech/kenna.png"
-            height="100"
-            width="100"
-            alt="Kenna logo"
-            className={styles.para_left_img}
-          /> */}
           <img
             src="/site_tech/kenna.png"
             height="100"
@@ -245,7 +238,8 @@ export default function KennaTerm() {
             leave it as a last resort and allow myself to be more independent
             where I can be. It also made me painfully aware how annoying bad
             documentation can be. One such time was when I was utilizing a Kendo
-            UI (a JavaScript UI library) component for a project.
+            UI (a JavaScript UI library) component for a project, where the info
+            I was trying to find and understand was very minimal in their docs.
           </p>
           <h3>Asking questions</h3>
           <p>
