@@ -14,7 +14,7 @@ export default function Home() {
         month term co-op and about to enter the 3rd year of my program. I've
         recently finished working at Kenna working as a Web Application
         Developer and really enjoyed working with technologies pertaining to the
-        web.
+        web such as MS SQL Server, jQuery, Node.js and more.
       </p>
     </>
   );
