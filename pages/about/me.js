@@ -94,7 +94,7 @@ export default function AboutMe() {
         <h2>Music</h2>
         <p>
           I think everyone likes to listen to music right? You'll mostly catch
-          me listening to Rap/Hip hop, Pop, and R&B. Some of my favourite/most
+          me listening to Rap/Hip-hop and Pop. Some of my favourite/most
           listened to artists right now are Drake, Logic, J. Cole, Denzel Curry,
           and The Weeknd (with The Weeknd being my favourite and most listened
           to out of the bunch). Some of my favourite albums include: Trilogy by
@@ -133,7 +133,11 @@ export default function AboutMe() {
               />
             </motion.div>
           </Popover>
-          <Popover content={popoverContent()}>
+          <Popover
+            content={popoverContent(
+              "https://open.spotify.com/album/2ODvWsOgouMbaA5xf0RkJe?si=LWCPlFMAQQa_GC_gs41flA",
+            )}
+          >
             <motion.div variants={fadeInUp}>
               <Image
                 src="/albums/starboy_cover.jpg"
@@ -144,7 +148,11 @@ export default function AboutMe() {
               />
             </motion.div>
           </Popover>
-          <Popover content={popoverContent()}>
+          <Popover
+            content={popoverContent(
+              "https://open.spotify.com/album/4Wv5UAieM1LDEYVq5WmqDd?si=-ku_mGXyRqCp85QR9oGzRg",
+            )}
+          >
             <motion.div variants={fadeInUp}>
               <Image
                 src="/albums/kod_cover.jpg"
@@ -170,7 +178,11 @@ export default function AboutMe() {
               />
             </motion.div>
           </Popover>
-          <Popover content={popoverContent()}>
+          <Popover
+            content={popoverContent(
+              "https://open.spotify.com/album/1Mk7Lei0Ra3hawezqmad5V?si=2LIuGuXfRwa5Xt61pfQwFg",
+            )}
+          >
             <motion.div variants={fadeInUp}>
               <Image
                 src="/albums/under_pressure_cover.jpg"
