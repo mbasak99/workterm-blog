@@ -1,9 +1,22 @@
-.about_kenna {
+.para_format {
   display: flex;
+}
+
+.para_format p {
+  flex: 2 1;
+}
+
+.about_kenna img {
+  align-self: flex-start;
 }
 
 .about_kenna p {
   flex-basis: auto;
+}
+
+.overview {
+  display: flex;
+  justify-content: center !important;
 }
 
 .kenna_projects {

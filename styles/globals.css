@@ -47,3 +47,7 @@ canvas.react-pdf__Page__canvas {
   max-width: 1080px;
   height: auto !important;
 }
+
+.site-layout-background div {
+  margin-bottom: 10px;
+}

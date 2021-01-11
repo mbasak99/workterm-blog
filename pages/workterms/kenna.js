@@ -6,6 +6,7 @@ export default function KennaTerm() {
   return (
     <>
       <Head>
+        <link rel="shortcut icon" href="/site_tech/antd_logo.svg" />
         <title>Kenna</title>
       </Head>
       <h1>Kenna (May 2020 - December 2020)</h1>
@@ -28,8 +29,8 @@ export default function KennaTerm() {
       </div>
       <div>
         <h2>About Kenna</h2>
-        <span className={styles.about_kenna}>
-          <p>
+        <span className={styles.para_format}>
+          <p style={{ marginRight: 10 }}>
             Kenna is a subsidiary of MDC Partners, an advertising and marketing
             holding company based in NYC with 50+ partner firms around the
             world. Kenna is a marketing solutions provider and is specialized in
@@ -41,12 +42,18 @@ export default function KennaTerm() {
             experiences for many large brands such as Colgate, BASF, Nissan,
             Coca Cola, Mercedes-Benz and many more!
           </p>
-          <Image
+          {/* <Image
             src="/site_tech/kenna.png"
             height="100"
-            width="400"
+            width="100"
             alt="Kenna logo"
-            layout="intrinsic"
+            className={styles.para_left_img}
+          /> */}
+          <img
+            src="/site_tech/kenna.png"
+            height="100"
+            width="100"
+            alt="Kenna logo"
           />
         </span>
       </div>
@@ -127,6 +134,15 @@ export default function KennaTerm() {
           bugs that occurred and would require me to take more time and use the
           debugging tools available to really hammer out the problems.
         </p>
+        <span className={styles.overview}>
+          <Image
+            src="/misc/growth.jpg"
+            height="400"
+            width="533"
+            alt="Growth"
+            layout="intrinsic"
+          />
+        </span>
       </div>
       <div>
         <h2>Technologies I Wanted To Work With</h2>
@@ -185,7 +201,6 @@ export default function KennaTerm() {
           brings utility for common programming tasks, but also HighCharts a
           library that visually renders data into different types of graphs.
         </p>
-
         <p>
           I was able to become more proficient with CSS, enhance my debugging
           skills and get better at reading documentation when I was assigned to
@@ -199,11 +214,11 @@ export default function KennaTerm() {
           brought on for the project.
         </p>
         <p>
-          Throughout the work term I was utilizing many different project
-          management tools such as JIRA to keep track of tickets assigned to me,
-          but also to help break down some tasks that seemed large into more
-          manageable sizes and also BitBucket for making sure the changes
-          introduced for a ticket are also up on dev/test environments.
+          Throughout the work term I was utilizing different project management
+          tools such as JIRA to keep track of tickets assigned to me, but also
+          to help break down some tasks that seemed large into more manageable
+          sizes and also BitBucket for making sure the changes I create for a
+          ticket are pushed into dev and above environments.
         </p>
         <p>
           I was also able to accomplish my goal of working with back-end
@@ -211,9 +226,10 @@ export default function KennaTerm() {
           was tasked with creating a 'Forgot My Password' feature where I had to
           create unique tokens that the user could use to reset their account's
           password I utilized Node.js to create specific routes (for the AJAX
-          calls in front-end) and call db procedures, while I had to use
+          calls in front-end) and call DB procedures, while I had to use
           try/catch blocks, transactions statements, error throwing and some
-          other back-end logic on the SQL side in order to make everything work.
+          other logic on the SQL side in order to make everything work together
+          (and correctly).
         </p>
       </div>
       <div>

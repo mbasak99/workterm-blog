@@ -5,3 +5,7 @@
   flex-wrap: wrap;
   gap: 10px;
 }
+
+.img_collection div {
+  margin-bottom: 0;
+}
