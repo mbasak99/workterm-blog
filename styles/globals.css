@@ -67,6 +67,6 @@ canvas.react-pdf__Page__canvas {
   height: auto !important;
 }
 
-.site-layout-background div {
+.site-layout-background > div {
   margin-bottom: 10px;
 }
