@@ -10,6 +10,10 @@
   margin-right: 10px;
 }
 
+.right_para {
+  margin-left: 10px;
+}
+
 .about_kenna img {
   align-self: flex-start;
 }

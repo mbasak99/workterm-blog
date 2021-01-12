@@ -154,17 +154,34 @@ export default function KennaTerm() {
           I mainly wanted to work with jQuery and React libraries as they're
           used at most companies, but jQuery in particular because I have had to
           utilize the library for a course project making me familiar with it. I
-          also wanted to work with back-end technologies because every
-          application needs one to store, retrieve and manipulate data. SQL (or
-          similar DBs) are generally used to store data and Node.js is used to
-          communicate with the DB for web apps. At Kenna I got to work with
-          those technologies, I initially started with a bit of React but was
-          later put into projects that all used jQuery as that's where I was
-          needed the most. I was also able to work with SQL -- specifically
-          T-SQL as Kenna uses Microsoft SQL Server -- for storing data and was
-          able to work on Node.js projects creating routes and services that
+          also wanted to work with back-end technologies because almost every
+          application needs a database to store, retrieve and manipulate data,
+          and a server that communicates with the database. SQL (or similar DBs)
+          are generally used to store data and Node.js is used to communicate
+          with the DB for web apps. At Kenna I got to work with those
+          technologies, I initially started with a bit of React but was later
+          put into projects that all used jQuery as that's where I was needed
+          the most. I was also able to work with SQL -- specifically T-SQL as
+          Kenna uses Microsoft SQL Server -- for storing data and was able to
+          work on Node.js projects creating routes and services that
           communicated with the DB.
         </p>
+        <span className={styles.kenna_projects}>
+          <Image
+            src="/misc/full-stack-web-development.jpg"
+            height="300"
+            width="600"
+            alt="Fullstack diagram"
+            layout="intrinsic"
+          />
+          <Image
+            src="/misc/technology-stack-diagram.jpg"
+            height="300"
+            width="533"
+            alt="Fullstack diagram"
+            layout="intrinsic"
+          />
+        </span>
       </div>
       <div>
         <h2>My Goals</h2>
@@ -186,10 +203,18 @@ export default function KennaTerm() {
       </div>
       <div>
         <h2>Did I Achieve My Goals?</h2>
-        <p>
-          Yes, I've definitely accomplished the goals I set through this work
-          term.
-        </p>
+        <span className={styles.para_format} style={{ marginBottom: 10 }}>
+          <img
+            src="/misc/achieving-target-strategy.jpg"
+            height="150"
+            width="218"
+            alt="Goals accomplished"
+          />
+          <p className={styles.right_para}>
+            Yes, I've definitely accomplished the goals I set through this work
+            term.
+          </p>
+        </span>
         <p>
           To start off, I've gained much experience working in projects that
           utilize JavaScript with all kinds of libraries, from Kendo UI which
@@ -203,12 +228,21 @@ export default function KennaTerm() {
           work on the WALLTITE project, where I was one of the two devs working
           on it at the time. Due to that fact, I was able to take on more tasks
           and learn more about styling, debugging and reading the documentation
-          for some tech that was used for this project. I was also able to solve
-          a language toggle issue where the site's language would change for
-          everyone from English to French (or vice versa) when many people were
-          on the site that was plaguing the site for a few months before I was
-          brought on for the project.
+          for some of the tech that was used for this project. I was also able
+          to solve a language toggle issue where the site's language would
+          change for everyone from English to French (or vice versa) when many
+          people were on the site. This was an issue for a few months before I
+          was brought on for the project.
         </p>
+        <span className={styles.kenna_projects}>
+          <Image
+            src="/misc/devblog-debug.png"
+            height="350"
+            width="560"
+            alt="Debugging"
+            layout="intrinsic"
+          />
+        </span>
         <p>
           Throughout the work term I was utilizing different project management
           tools such as JIRA to keep track of tickets assigned to me, but also
@@ -216,6 +250,22 @@ export default function KennaTerm() {
           sizes and also BitBucket for making sure the changes I create for a
           ticket are pushed into dev and above environments.
         </p>
+        <span className={styles.kenna_projects}>
+          <Image
+            src="/misc/bitbucket_logo.png"
+            height="150"
+            width="530"
+            alt="Bitbucket logo"
+            layout="intrinsic"
+          />
+          <Image
+            src="/misc/jira_logo.png"
+            height="150"
+            width="267"
+            alt="JIRA logo"
+            layout="intrinsic"
+          />
+        </span>
         <p>
           I was also able to accomplish my goal of working with back-end
           technologies over my work term, specifically with Node.js and SQL. I
@@ -244,6 +294,15 @@ export default function KennaTerm() {
             UI (a JavaScript UI library) component for a project, where the info
             I was trying to find and understand was very minimal in their docs.
           </p>
+          <span className={styles.kenna_projects}>
+            <Image
+              src="/misc/tech_documentation.jpg"
+              height="400"
+              width="914"
+              alt="Documentation"
+              layout="intrinsic"
+            />
+          </span>
           <h3>Asking questions</h3>
           <p>
             I also learned that you might not always have the whole picture or
@@ -255,6 +314,22 @@ export default function KennaTerm() {
             important to ask questions if the task at hand is time sensitive,
             the sooner you ask questions the sooner you can complete tasks.
           </p>
+          <span className={styles.kenna_projects}>
+            <Image
+              src="/misc/asking_questions.jpg"
+              height=""
+              width=""
+              alt="Asking questions"
+              layout="intrinsic"
+            />
+            <Image
+              src="/misc/questions.png"
+              height=""
+              width=""
+              alt="Questions"
+              layout="intrinsic"
+            />
+          </span>
         </div>
       </div>
       <div>
