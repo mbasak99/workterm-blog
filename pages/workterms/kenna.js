@@ -156,15 +156,14 @@ export default function KennaTerm() {
           utilize the library for a course project making me familiar with it. I
           also wanted to work with back-end technologies because almost every
           application needs a database to store, retrieve and manipulate data,
-          and a server that communicates with the database. SQL (or similar DBs)
-          are generally used to store data and Node.js is used to communicate
-          with the DB for web apps. At Kenna I got to work with those
-          technologies, I initially started with a bit of React but was later
-          put into projects that all used jQuery as that's where I was needed
-          the most. I was also able to work with SQL -- specifically T-SQL as
-          Kenna uses Microsoft SQL Server -- for storing data and was able to
-          work on Node.js projects creating routes and services that
-          communicated with the DB.
+          and a server that communicates with the database. SQL (or similar
+          query languages) are generally used to store data and Node.js is used
+          to communicate with the database for web apps. At Kenna I got to work
+          with those technologies, I initially started with a bit of React but
+          was later put into projects that all used jQuery as that's where I was
+          needed the most. I was also able to work with MS SQL Server databases
+          for storing data and was able to work on Node.js projects creating
+          routes and services that communicated with the database.
         </p>
         <span className={styles.kenna_projects}>
           <Image
@@ -272,7 +271,7 @@ export default function KennaTerm() {
           was tasked with creating a 'Forgot My Password' feature where I had to
           create unique tokens that the user could use to reset their account's
           password I utilized Node.js to create specific routes (for the AJAX
-          calls in front-end) and call DB procedures, while I had to use
+          calls in front-end) and call database procedures, while I had to use
           try/catch blocks, transactions statements, error throwing and some
           other logic on the SQL side in order to make everything work together
           (and correctly).
