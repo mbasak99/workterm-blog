@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../../styles/kenna.module.css";
+import { Collapse } from "antd";
+
+const { Panel } = Collapse;
 
 export default function KennaTerm() {
   return (
