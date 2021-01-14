@@ -27,12 +27,12 @@ export default function AboutMe() {
           I've been gaming for the majority of my life and it's something I love
           to do, whether it's gaming with friends on multiplayer games like
           Rainbox Six Siege or losing myself in beautifully crafted and
-          immersive games. Some of my favourite games include: God of War, Red
+          immersive games. Some of my favourite games include God of War, Red
           Dead Redemption 2, Bloodborne, Ghost of Tsushima, The Witcher 3: Wild
           Hunt, and The Last of Us. As of writing this, I've been playing
-          Bloodborne (and its DLC) and really enjoying the challenge the game
-          brings along with the beautifully written scores for the game's many
-          boss fights.
+          Bloodborne (and its DLC) and enjoying the challenge the game brings
+          along with the beautifully written scores for the game's many boss
+          fights.
         </p>
         <motion.span variants={stagger} className={styles.img_collection}>
           <motion.div variants={fadeInUp}>
@@ -98,7 +98,7 @@ export default function AboutMe() {
           me listening to Rap/Hip-hop and Pop. Some of my favourite/most
           listened to artists right now are Drake, Logic, J. Cole, Denzel Curry,
           and The Weeknd (with The Weeknd being my favourite and most listened
-          to out of the bunch). Some of my favourite albums include: Trilogy by
+          to out of the bunch). Some of my favourite albums include Trilogy by
           The Weeknd, Starboy by The Weeknd, After Hours by The Weeknd, Under
           Pressure by Logic, 2014 Forest Hills Drive by J. Cole, K.O.D. by J.
           Cole, and Under Pressure by Logic.
