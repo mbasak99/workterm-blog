@@ -6,7 +6,7 @@ export default function KennaTerm() {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/site_tech/antd_logo.svg" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <title>Kenna</title>
       </Head>
       <h1>Kenna (May 2020 - December 2020)</h1>
