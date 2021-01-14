@@ -4,6 +4,7 @@ export default function AboutSite() {
   return (
     <>
       <Head>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <title>About This Site</title>
       </Head>
       <h1>About This Site</h1>

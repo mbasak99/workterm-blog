@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <title>Home</title>
       </Head>
       <h1>Let Me Introduce Myself</h1>

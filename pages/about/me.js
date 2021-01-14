@@ -17,6 +17,7 @@ export default function AboutMe() {
   return (
     <motion.div animate="animate" initial="initial">
       <Head>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <title>About Me</title>
       </Head>
       <h1>Things I Like To Do</h1>
