@@ -14,8 +14,8 @@ export default function Home() {
         Software Engineering student. As of writing this, I've finished an 8
         month term co-op and about to enter the 3rd year of my program. I've
         recently finished working at Kenna working as a Web Application
-        Developer and enjoyed working with technologies of the web such as MS
-        SQL Server, jQuery, Node.js and more.
+        Developer and enjoyed working with technologies such as MS SQL Server,
+        jQuery, React, Node.js and more.
       </p>
     </>
   );
