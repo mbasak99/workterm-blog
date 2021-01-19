@@ -37,7 +37,7 @@ export default function KennaTerm() {
             helping other businesses design and provide more unified experiences
             for their customers. They provide these unified experiences by
             enabling marketing and sales to easily interact and engage with
-            customers and providing the information they want when it's wanted
+            customers and providing the information they want, when it's wanted
             it. They have provided their services to create better customer
             experiences for many large brands such as Colgate, BASF, Nissan,
             Coca-Cola, Mercedes-Benz and many more!
