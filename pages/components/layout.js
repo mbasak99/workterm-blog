@@ -5,8 +5,7 @@ import Link from "next/link";
 import { Layout, Menu, Breadcrumb } from "antd";
 import {
   DesktopOutlined,
-  PieChartOutlined,
-  FileOutlined,
+  HomeOutlined,
   QuestionCircleOutlined,
   LinkedinOutlined,
   GithubOutlined,
@@ -55,7 +54,7 @@ export default function SiteLayout(props) {
       >
         {/* <div className={styles.logo} /> */}
         <Menu theme="dark" defaultSelectedKeys={[itemSelected()]} mode="inline">
-          <Menu.Item key="1" icon={<PieChartOutlined />}>
+          <Menu.Item key="1" icon={<HomeOutlined />}>
             <Link href="/">
               <a>Home</a>
             </Link>
