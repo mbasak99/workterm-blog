@@ -22,10 +22,11 @@ export default function AboutSite() {
         <h2>Why Was This Site Made?</h2>
         <p>
           This site was made to help reflect on the work experience we gain
-          throughout our co-op program. But also as a way to track our progress
-          when looking back. I also wanted to create my site as opposed to using
-          WordPress or some other site builder because I wanted to experiment
-          with some technologies I had heard about.
+          throughout our co-op program. It also functions as a way to track our
+          progress when looking back. Another reason why I wanted to create this
+          site as opposed to using WordPress or some other site builder is
+          because I wanted to experiment with some technologies I had heard
+          about, specifically Next.js and Framer Motion.
         </p>
       </div>
     </>
